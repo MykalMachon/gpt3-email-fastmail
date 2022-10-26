@@ -1,40 +1,25 @@
 {
-  "author": "Daniel Melchor",
+  "author": "Daniel Melchor + Mykal Machon",
   "version": "1.0.0",
-  "description": "GPT-3 Autocomplete for GMail",
+  "description": "GPT-3 Autocomplete for Fastmail",
   "manifest_version": 3,
-  "name": "GTP3Mail",
+  "name": "GTP3Mail for Fastmail",
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": [
-    "tabs",
-    "storage"
-  ],
-  "host_permissions": [
-    "https://mail.google.com/*"
-  ],
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["https://app.fastmail.com/*"],
   "content_scripts": [
     {
-      "matches": [
-        "https://mail.google.com/*"
-      ],
-      "css": [
-        "content.css"
-      ],
-      "js": [
-        "content.js"
-      ]
+      "matches": ["https://app.fastmail.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"]
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": [
-        "images/logo.png"
-      ],
-      "matches": [
-        "https://mail.google.com/*"
-      ]
+      "resources": ["images/logo.png"],
+      "matches": ["https://app.fastmail.com/*"]
     }
   ],
   "action": {
