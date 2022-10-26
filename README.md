@@ -1,4 +1,5 @@
-# GPT-3 For Gmail
+# GPT-3 For Fastmal
+This is a fork of [Daniel Melchor's GPT3 email repo](https://github.com/danimelchor/gpt3-email) to add FastMail support. If you use GMail, go check out the original repo!
 
 ## Installation
 
@@ -10,7 +11,7 @@ Head to [OpenAI's](https://openai.com/api/) website and obtain your API key.
 
 Once the setup script has finished running, you need to follow these steps:
 
-1. (Optional) Re-build the extension with `yarn build`
+1. Download the build.zip from the releases page and extract it. 
 
 2. Go to your browsers extension page (e.g. [chrome://extensions/](chrome://extensions/))
 
@@ -30,7 +31,7 @@ To start using the extension do the following:
 
 3. Configure the extension as desired
 
-4. Head to gmail and enjoy
+4. Head to fastmail and enjoy
 
 https://user-images.githubusercontent.com/24496843/194149908-acdf93c8-854f-472a-80ed-8cc61f86a05e.mov
 
